@@ -1,2 +1,7 @@
 server:
   port: 6666
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/TravelAgency2
+    username: docker
+    password: docker
