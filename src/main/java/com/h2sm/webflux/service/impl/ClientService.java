@@ -12,6 +12,7 @@ import reactor.core.publisher.Mono;
 @RequiredArgsConstructor
 public class ClientService implements BaseService<Client> {
     private final ClientRepository repository;
+
     @Override
     public Flux<Client> findAll() {
         return repository.findAll();
