@@ -1,12 +1,14 @@
 package com.h2sm.webflux.model;
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 
-import java.util.Date;
+import java.sql.Date;
 
 @Builder
 @Data
+@AllArgsConstructor
 public class ClientModel {
     private String fullName;
     private String passport;
